@@ -1,0 +1,14 @@
+﻿[Run Information]
+Version=CSPro 7.0
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\children_HIV.ent
+InputData=.\children_HIV_data.dat
+
+
+[Parameters]
+

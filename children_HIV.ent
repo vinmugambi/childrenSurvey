@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.0
+Label=CHILDREN_HIV
+Name=CHILDREN_HIV
+AppType=DataEntry
+[AppCode]
+File=.\children_HIV.ent.apc
+[Message]
+File=.\children_HIV.ent.mgf
+[Help]
+File=.\children_HIV.ent.qsf
+[Forms]
+File=.\children_HIV.fmf
+[Dictionary Types]
+Dict-Type=.\children_HIV_dictionary.dcf,Input,.\children_HIV.fmf

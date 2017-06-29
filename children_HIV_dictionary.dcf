@@ -1,0 +1,1356 @@
+﻿[Dictionary]
+Version=CSPro 7.0
+Label=children_HIV_dictionary
+Name=CHILDREN_HIV_DICTIONARY_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=children_HIV_dictionary questionnaire
+Name=CHILDREN_HIV_DICTIONARY_QUEST
+
+[IdItems]
+
+[Item]
+Label=PROVINCE CODE
+Name=PROVINCE_CODE
+Start=2
+Len=1
+
+[Item]
+Label=NASCOP REGION CODE
+Name=NASCOP_REGION_CODE
+Start=3
+Len=1
+
+[Item]
+Label=COUNTY CODE
+Name=COUNTY_CODE
+Start=4
+Len=2
+
+[Item]
+Label=DISTRICT CODE
+Name=DISTRICT_CODE
+Start=6
+Len=2
+
+[Item]
+Label=NASSEP V CLUSTER NUMBER
+Name=NASSEP_V_CLUSTER_NUMBER
+Start=8
+Len=4
+
+[Item]
+Label=HOUSEHOLD NUMBER
+Name=HOUSEHOLD_NUMBER
+Start=12
+Len=3
+
+[Item]
+Label=LINE NUMBER
+Name=LINE_NUMBER
+Start=15
+Len=2
+
+[Record]
+Label=NOT REQUIRED
+Name=NOT_REQUIRED
+RecordTypeValue='I'
+Required=No
+RecordLen=134
+
+[Item]
+Label=PROVINCE NAME
+Name=PROVINCE_NAME
+Start=17
+Len=14
+DataType=Alpha
+
+[Item]
+Label=NASCOP REGION NAME
+Name=NASCOP_REGION_NAME
+Start=31
+Len=18
+DataType=Alpha
+
+[Item]
+Label=COUNTY NAME
+Name=COUNTY_NAME
+Start=49
+Len=18
+DataType=Alpha
+
+[Item]
+Label=DISTRICT NAME
+Name=DISTRICT_NAME
+Start=67
+Len=18
+DataType=Alpha
+
+[Item]
+Label=NAME OF HOUSEHOLD HEAD
+Name=NAME_OF_HOUSEHOLD_HEAD
+Start=85
+Len=25
+DataType=Alpha
+
+[Item]
+Label=NAME OF RESPONDENT
+Name=NAME_OF_RESPONDENT
+Start=110
+Len=25
+DataType=Alpha
+
+[Record]
+Label=INTERVIEWER VISITS
+Name=INTERVIEWER_VISITS
+RecordTypeValue='1'
+RecordLen=30
+
+[Item]
+Label=FINAL VISIT DATE
+Name=FINAL_VISIT_DATE
+Start=17
+Len=8
+
+[Item]
+Label=INT. CODE
+Name=INT_CODE
+Start=25
+Len=4
+
+[Item]
+Label=RESULT
+Name=RESULT
+Start=29
+Len=1
+
+[ValueSet]
+Label=RESULT
+Name=RESULT_VS2
+Value=1;COMPLETED
+Value=2;NOT AT HOME
+Value=3;POSTPONED
+Value=4;REFUSED
+Value=5;PARTLY COMPLETED
+Value=6;INCAPACITATED
+Value=7;OTHER (SPECIFY)
+
+[Item]
+Label=TOTAL NUMBER OF VISITS
+Name=TOTAL_NUMBER_OF_VISITS
+Start=30
+Len=1
+
+[Record]
+Label=INTERVIEWER PEN
+Name=INTERVIEWER_PEN
+RecordTypeValue='J'
+Required=No
+MaxRecords=3
+RecordLen=50
+
+[Item]
+Label=VISIT DATE
+Name=VISIT_DATE
+Start=17
+Len=8
+
+[Item]
+Label=INTERVIEWERS NAME
+Name=INTERVIEWERS_NAME
+Start=25
+Len=25
+DataType=Alpha
+
+[Item]
+Label=VISIT RESULT
+Name=VISIT_RESULT
+Start=50
+Len=1
+
+[Record]
+Label=NEXT VISITS
+Name=NEXT_VISITS
+RecordTypeValue='K'
+Required=No
+MaxRecords=2
+RecordLen=29
+
+[Item]
+Label=NEXT VISIT DATE
+Name=NEXT_VISIT_DATE
+Start=17
+Len=8
+
+[Item]
+Label=NEXT VISIT TIME
+Name=NEXT_VISIT_TIME
+Start=25
+Len=5
+DataType=Alpha
+
+[Record]
+Label=NEXT VISIT LAB TECHNICIAN
+Name=NEXT_VISIT_LAB_TECHNICIAN
+RecordTypeValue='L'
+Required=No
+MaxRecords=2
+RecordLen=30
+
+[Item]
+Label=LAB RESULT
+Name=LAB_RESULU
+Start=17
+Len=1
+
+[Item]
+Label=NEXT VISIT DATE
+Name=NEXT_VISIT_DATF
+Start=18
+Len=8
+
+[Item]
+Label=NEXT VISIT TIME
+Name=NEXT_VISIT_TIMF
+Start=26
+Len=5
+DataType=Alpha
+
+[Record]
+Label=LAB TECHNICIAN VISITS
+Name=LAB_TECHNICIAN_VISITS
+RecordTypeValue='2'
+RecordLen=18
+
+[Item]
+Label=LAB RESULT
+Name=LAB_RESULT
+Start=17
+Len=1
+
+[ValueSet]
+Label=LAB RESULT
+Name=LAB_RESULT_VS2
+Value=1;AGREE
+Value=2;REFUSE
+Value=3;ABSENT
+
+[Item]
+Label=TOTAL NUMBER OF VISITS
+Name=TOTAL_NUMBER_OF_VSITS
+Start=18
+Len=1
+
+[Record]
+Label=LANGUAGE
+Name=LANGUAGE
+RecordTypeValue='3'
+RecordLen=20
+
+[Item]
+Label=LANGUAGE OF INTERVIEW
+Name=LANGUAGE_OF_INTERVIEW
+Start=17
+Len=2
+
+[ValueSet]
+Label=LANGUAGE OF INTERVIEW
+Name=LANGUAGE_OF_INTERVIEW_VS2
+Value=1;EMBU
+Value=2;KALENJIN
+Value=3;KAMBA
+Value=4;KIKUYU
+Value=5;KISII
+Value=6;LUHYA
+Value=7;LUO
+Value=8;MAASAI
+Value=9;MERU
+Value=10;MIJIKENDA
+Value=11;SOMALI
+Value=12;KISWAHILI
+Value=13;ENGLISH
+Value=14;OTHER
+
+[Item]
+Label=HOME LANGUAGE OF RESPONDENT
+Name=HOME_LANGUAGE_OF_RESPONDENT
+Start=19
+Len=2
+
+[ValueSet]
+Label=HOME LANGUAGE OF RESPONDENT
+Name=HOME_LANGUAGE_OF_RESPONDENT_VS2
+Value=1;EMBU
+Value=2;KALENJIN
+Value=3;KAMBA
+Value=4;KIKUYU
+Value=5;KISII
+Value=6;LUHYA
+Value=7;LUO
+Value=8;MAASAI
+Value=9;MERU
+Value=10;MIJIKENDA
+Value=11;SOMALI
+Value=12;KISWAHILI
+Value=13;ENGLISH
+Value=14;OTHER
+
+[Record]
+Label=SUPERVISOR
+Name=SUPERVISOR
+RecordTypeValue='4'
+Required=No
+RecordLen=59
+
+[Item]
+Label=SUPERVISORS NAME
+Name=SUPERVISORS_NAME
+Start=17
+Len=25
+DataType=Alpha
+
+[Item]
+Label=DATE
+Name=DATE_SUPERVISOR
+Start=42
+Len=8
+
+[Item]
+Label=SUPERVISORS CODE
+Name=SUPERVISORS_CODE
+Start=50
+Len=4
+
+[Item]
+Label=EDITOR
+Name=EDITOR
+Start=54
+Len=3
+
+[Item]
+Label=KEYED
+Name=KEYED
+Start=57
+Len=3
+
+[Record]
+Label=PARENT'S CONSENT AND CHILD'S ASSENT
+Name=PARENT_S_CONSENT_AND_CHILD_ASSEN
+RecordTypeValue='5'
+RecordLen=19
+
+[Item]
+Label=Does the (Name of minor) have nay hearing or mental disabilities tha would hinder him or her from answering question about themselves?
+Name=MINOR_HAS_DISABILTY
+Start=17
+Len=1
+
+[ValueSet]
+Label=Does the (Name of minor) have nay hearing or mental disabilities tha would hinder him or her from answering question about themselves?
+Name=MINOR_HAS_DISABILTY_VS2
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=May I interview (Name of minor)?
+Name=ACCEPT_INTERVIEW
+Start=18
+Len=1
+
+[ValueSet]
+Label=May I interview (Name of minor)?
+Name=ACCEPT_INTERVIEW_VS2
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=May I begin the interview?
+Name=CHILDS_ASSENT
+Start=19
+Len=1
+
+[ValueSet]
+Label=May I begin the interview?
+Name=CHILDS_ASSENT_VS2
+Value=1;YES
+Value=2;NO
+
+[Record]
+Label=START TIME
+Name=START_TIME
+RecordTypeValue='6'
+RecordLen=20
+
+[Item]
+Label=HOURS
+Name=START_HOURS
+Start=17
+Len=2
+
+[Item]
+Label=MINUTES
+Name=START_MINUTES
+Start=19
+Len=2
+
+[Record]
+Label=MODULE 1: RESPONDENT'S BACKGROUND
+Name=RESPONDENT_S_BACKGROUND
+RecordTypeValue='7'
+RecordLen=32
+
+[Item]
+Label=When is your date of birth?
+Name=DATE_OF_BIRTH
+Start=17
+Len=8
+
+[Item]
+Label=How old were you at your last birthday?
+Name=HOW_OLD_WERE_YOU_AT_YOUR_LAST_BI
+Start=25
+Len=2
+
+[Item]
+Label=Are you a boy or a girl?
+Name=BOY_OR_GIRL
+Start=27
+Len=1
+
+[ValueSet]
+Label=Are you a boy or a girl?
+Name=BOY_OR_GIRL_VS2
+Value=1;BOY
+Value=2;GIRL
+
+[Item]
+Label=Do you go to school?
+Name=GOES_TO_SCHOOL
+Start=28
+Len=1
+
+[ValueSet]
+Label=Do you go to school?
+Name=GOES_TO_SCHOOL_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=What class are you in?
+Name=LEVEL_OF_STUDY
+Start=29
+Len=1
+
+[ValueSet]
+Label=What class are you in?
+Name=LEVEL_OF_STUDY_VS2
+Value=1;NURSERY/KINDERGARTEN
+Value=2;PRIMARY
+Value=3;POST-PRIMARY/VOCATIONAL
+Value=4;SECONDARY/(FORM 1-4/GCE)
+Value=5;OTHER(SPECIFY)
+
+[Item]
+Label=What is the  highest level of education you ever completed?
+Name=HIGHEST_LVL_COMPLETED
+Start=30
+Len=1
+
+[ValueSet]
+Label=What is the  highest level of education you ever completed?
+Name=HIGHEST_LVL_COMPLETED_VS2
+Value=1;NURSERY/KINDERGARTEN
+Value=2;PRIMARY
+Value=3;POST-PRIMARY/VOCATIONAL
+Value=4;SECONDARY/(FORM 1-4/GCE)
+Value=5;OTHER(SPECIFY)
+
+[Item]
+Label=What is the main reason you are not attendingn school?
+Name=REASON_FOR_NOT_SCHOOL
+Start=31
+Len=2
+
+[ValueSet]
+Label=What is the main reason you are not attendingn school?
+Name=REASON_FOR_NOT_SCHOOL_VS2
+Value=1;I HAVE BEEN SICK
+Value=2;I DON’T FEEL SAFE TRAVELLING TO SCHOOL
+Value=3;I DON’T FEEL SAFE WHILE IN SCHOOL
+Value=4;I  DON’T L IKE SCHOOL
+Value=5;I HAVE TO LOOK AFTER MY SIBLINGS
+Value=6;I HAVE TO LOOK AFTER A SICK FAMILY MEMBER
+Value=7;THERE IS NOT ENOUGH MONEY TO SEND ME TO SCHOOL
+Value=8;SCHOOL IS TOO FAR AWAY
+Value=9;I HAVE TO WORK
+Value=10;I HAVE A CHILD(GIRLS ONLY)
+Value=11;I AM PREGNANT(GIRLS ONLY)
+Value=12;I MISSED TOO MUCH SCHOOL BECAUSE OF MY PERIOD (MENSTRUATION) (GIRLS ONLY)
+Value=96;OTHERS (SPECIFY)
+
+[Record]
+Label=MODULE 2: KNOWLEDGE, ATTITIDES, AND SOURCES OF HIV RISK PERCEPTION
+Name=KNOWLEDGE
+RecordTypeValue='8'
+RecordLen=31
+
+[Item]
+Label=Have you ever heard of an infection called HIV, the virus that causes AIDS?
+Name=EVER_HEARD_OF_HIV
+Start=17
+Len=1
+
+[ValueSet]
+Label=Have you ever heard of an infection called HIV, the virus that causes AIDS?
+Name=EVER_HEARD_OF_HIV_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=From where have you learnt about HIV or AIDS?
+Name=WHERE_LEARNT_ABOUT_HIV
+Start=18
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=From where have you learnt about HIV or AIDS?
+Name=WHERE_LEARNT_ABOUT_HIV_VS2
+Value='A       ';SCHOOLS/TEACHERS
+Value='B       ';PARENTS/GUARDIANS
+Value='C       ';RELIGIOUS LEADERS
+Value='D       ';INTERNET
+Value='E       ';MOBILE PHONES
+Value='F       ';HEALTH PROVIDERS/NURSES/DOCTORS/CLINICAL OFFICERS
+Value='G       ';TELEVISION FILM
+Value='H       ';RADIO
+Value='I       ';OTHER(SPECIFY)
+
+[Item]
+Label=Have you ever discussed HIV or AIDS with your parents or guardians?
+Name=EVER_DISCUSSED_HIV_WITH_PARENTS
+Start=26
+Len=1
+
+[ValueSet]
+Label=Have you ever discussed HIV or AIDS with your parents or guardians?
+Name=EVER_DISCUSSED_HIV_WITH_PARENTU
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Can one reduce their chance of getting HIV by not having sex at all?
+Name=DOES_ABSTAINING_REDUCE_RISK
+Start=27
+Len=1
+
+[ValueSet]
+Label=Can one reduce their chance of getting HIV by not having sex at all?
+Name=DOES_ABSTAINING_REDUCE_RISK_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Can one reduce their chance of getting HIV by using condoms when having sex?
+Name=DOES_CONDOM_USE_RED_RISK
+Start=28
+Len=1
+
+[ValueSet]
+Label=Can one reduce their chance of getting HIV by using condoms when having sex?
+Name=DOES_CONDOM_USE_RED_RISK_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Can a healthy looking person have HIV or AIDS?
+Name=HEALHY_LOOKING_AIDS
+Start=29
+Len=1
+
+[ValueSet]
+Label=Can a healthy looking person have HIV or AIDS?
+Name=HEALHY_LOOKING_AIDS_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Can a mother with HIV or AIDS pass HIV to her unborn child?
+Name=MOTHER_TO_UNBORN_CHILD
+Start=30
+Len=1
+
+[ValueSet]
+Label=Can a mother with HIV or AIDS pass HIV to her unborn child?
+Name=MOTHER_TO_UNBORN_CHILD_VS1
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Are there medicine that people with HIV or AIDS can take to help the live longer?
+Name=AVAILABLE_ARVS
+Start=31
+Len=1
+
+[ValueSet]
+Label=Are there medicine that people with HIV or AIDS can take to help the live longer?
+Name=AVAILABLE_ARVS_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Record]
+Label=MODULE 3: HIV PREVENTION INTERVETIONS
+Name=MODULE_3_HIV_PREVENTION
+RecordTypeValue='9'
+RecordLen=22
+
+[Item]
+Label=Have you taken part in any of the following HIV prevention Programs?
+Name=HIV_PREVENTION_PROGRAMS
+Start=17
+Len=6
+DataType=Alpha
+
+[Item]
+Label=Family Matters Program?
+Name=FAMILY_MATTERS_PROGRAM
+Start=17
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Family Matters Program?
+Name=FAMILY_MATTERS_PROGRAM_VS2
+Value=1;YES
+Image=.\family-matters.jpg
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Healthy Choices?
+Name=HEALTHY_CHOICES
+Start=18
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Healthy Choices?
+Name=HEALTHY_CHOICES_VS2
+Value=1;YES
+Image=.\healthy-choices.jpg
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Watched the TV drama called Shuga?
+Name=SHUGA
+Start=19
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Watched the TV drama called Shuga?
+Name=SHUGA_VS2
+Value=1;YES
+Image=.\shuga.jpg
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=G-Pange?
+Name=G_PANGE
+Start=20
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=G-Pange?
+Name=G_PANGE_VS2
+Value=1;YES
+Image=.\G-PANGE.jpg
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Chill Club?
+Name=CHILL_CLUB
+Start=21
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Chill Club?
+Name=CHILL_CLUB_VS2
+Value=1;YES
+Image=.\chill-club.jpg
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Life Skills Program?
+Name=LIFE_SKILLS_PROGRAM
+Start=22
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Have you taken part in any of the following HIV prevention Programs?
+Name=LIFE_SKILLS_PROGRAM_VSA
+Value=1;YES
+Image=.\life-skills-program.jpg
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Record]
+Label=MODULE 4: CIRCUMCISION
+Name=MODULE_4_CIRCUMCISION
+RecordTypeValue='A'
+RecordLen=18
+
+[Item]
+Label=Are you circumcised?
+Name=ARE_YOU_CIRCUMCISED
+Start=17
+Len=1
+
+[ValueSet]
+Label=Are you circumcised?
+Name=ARE_YOU_CIRCUMCISED_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Item]
+Label=Are your parents planning to ha ve you circumcised?
+Name=PLAN_FOR_CIRCUMCISION
+Start=18
+Len=1
+
+[ValueSet]
+Label=Are your parents planning to ha ve you circumcised?
+Name=PLAN_FOR_CIRCUMCISION_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+
+[Record]
+Label=MODULE 5: SEXUAL ACTIVITY
+Name=MODULE_5_SEXUAL_ACTIVITY
+RecordTypeValue='B'
+RecordLen=52
+
+[Item]
+Label=Have you ever had sex?
+Name=EVER_HAD_SEX
+Start=17
+Len=2
+
+[ValueSet]
+Label=Have you ever had sex?
+Name=EVER_HAD_SEX_VS2
+Value=1;YES
+Value=2;NO
+Value=3;I DON’T KNOW WHAT SEX IS
+Value=98;REFUSED
+
+[Item]
+Label=What types of sex have you had?
+Name=TYPES_OF_SEX_HAD
+Start=19
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=What types of sex have you had?
+Name=TYPES_OF_SEX_HAD_VS2
+Value='A   ';ORAL
+Value='B   ';ANAL
+Value='C   ';VAGINAL
+Value='D   ';OTHERS (SPECIFY)
+Value='E   ';REFUSED
+
+[Item]
+Label=What is the main reason you had sex for the first time?
+Name=REASON_SEX_FIRST_TIME
+Start=23
+Len=2
+
+[ValueSet]
+Label=What is the main reason you had sex for the first time?
+Name=REASON_SEX_FIRST_TIME_VS2
+Value=1;IT JUST HAPPENED
+Value=2;MY FRIENDS LED ME TO HAVE SEX
+Value=3;TO PROVE MY LOVE
+Value=4;I WANTED TO HAVE SEX
+Value=5;MY BOYFRIEND/GIRLFRIEND LED ME TO HAVE SEX
+Value=6;I WAS DRUNK AND TAKING DRUGS
+Value=7;I WAS TRICKED
+Value=8;I WAS THREATENED/FORCED/RAPED
+Value=9;FOR MONEY/GIFTS
+Value=0;I WANTED TO HAVE A BABY
+Value=6;OTHER(SPECIFY)
+Value=88;DON’T KNKOW
+Value=98;REFUSED
+
+[Item]
+Label=How old were you when you had sexual intercouse for the very first time?
+Name=AGE_AT_FIRST_SEX_EXPERIENCE
+Start=25
+Len=2
+
+[Item]
+Label=Was the person you had sex with older, younger, or the same age as you?
+Name=DIFFERNCE_IN_AGE_SEX_PARTNER
+Start=27
+Len=2
+
+[ValueSet]
+Label=Was the person you had sex with older, younger, or the same age as you?
+Name=DIFFERNCE_IN_AGE_SEX_PARTNER_VS2
+Value=1;OLDER THAN ME
+Value=2;SAME AGE AS ME
+Value=3;YOUNGER THAN ME
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=How much older than yourself was the person you had sex with for the first time?
+Name=HOW_OLDER_FIRST_PARTNER
+Start=29
+Len=2
+
+[ValueSet]
+Label=How much older than yourself was the person you had sex with for the first time?
+Name=HOW_OLDER_FIRST_PARTNER_VS2
+Value=1;10 OR MORE YEARS OLDER
+Value=2;5-9 YEARS OLDER
+Value=3;1-4 YEARS OLDER
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=The first time you had sex, was a condom used?
+Name=CONDOM_USE_FIRST_INTERCOUSE
+Start=31
+Len=2
+
+[ValueSet]
+Label=The first time you had sex, was a condom used?
+Name=CONDOM_USE_FIRST_INTERCOUSE_VS2
+Value=1;YES
+Value=2;NO
+Value=3;I DON’T KNOW WHAT CONDOM IS
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=The last time you had sex, was a condom used?
+Name=CONDOM_USE_LAST_TIME
+Start=33
+Len=2
+
+[ValueSet]
+Label=The last time you had sex, was a condom used?
+Name=CONDOM_USE_LAST_TIME_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=How often was a condom used when you had sex?
+Name=OFTEN_USE_CONDOM
+Start=35
+Len=2
+
+[ValueSet]
+Label=How often was a condom used when you had sex?
+Name=OFTEN_USE_CONDOM_VS2
+Value=1;ALWAYS
+Value=2;SOMETIMES
+Value=3;NEVER
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Do you know where to get a condom?
+Name=ACCESS_TO_CONDOMS
+Start=37
+Len=2
+
+[ValueSet]
+Label=Do you know where to get a condom?
+Name=ACCESS_TO_CONDOMS_VS2
+Value=1;YES
+Value=2;NO
+Value=98;REFUSED
+
+[Item]
+Label=Where would you get a condom?
+Name=WHERE_WOULD_YOU_GET_A_CONDOM
+Start=39
+Len=8
+DataType=Alpha
+
+[ValueSet]
+Label=Where would you get a condom?
+Name=WHERE_WOULD_YOU_GET_A_CONDOM_VS2
+Value='A       ';HEALTH FACILTY/CLINIC/HOSPITAL
+Value='B       ';PHARMACY
+Value='C       ';SHOPS/SUPERMARKETS/MARKET KIOSKS
+Value='D       ';FRIENDS
+Value='E       ';PARENTS/GUARDIANS/FAMILY
+Value='F       ';PUBLIC PLACES(TOILET CLUBS)
+Value='G       ';GIRLFRIEND/BOYFRIEND
+Value='H       ';OTHER(SPECIFY)
+
+[Item]
+Label=How many different people have you ever had sex with?
+Name=NO_OFSEX_PARTNERS
+Start=47
+Len=2
+
+[Item]
+Label=Have you ever made someone pregnant? (Boys Only)
+Name=MADE_PREGNANT
+Start=49
+Len=2
+
+[ValueSet]
+Label=Have you ever made someone pregnant? (Boys Only)
+Name=MADE_PREGNANT_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Have you ever been pregnant? (Girls Only)
+Name=EVER_PREGNANT
+Start=51
+Len=2
+
+[ValueSet]
+Label=Have you ever been pregnant? (Girls Only)
+Name=EVER_PREGNANT_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Record]
+Label=MODULE 6: HIV RISK PERCEPTION
+Name=MODULE_6_HIV_RISK_PERCEPTION
+RecordTypeValue='C'
+RecordLen=29
+
+[Item]
+Label=Do you think you have a chance of getting HIV?
+Name=IS_VULNERABLE
+Start=17
+Len=1
+
+[ValueSet]
+Label=Do you think you have a chance of getting HIV?
+Name=IS_VULNERABLE_VS2
+Value=1;YES
+Value=2;NO
+Value=3;I HAVE HIV
+Value=8;DON’T KNOW
+
+[Item]
+Label=Why do you think you have a chance of getting HIV?
+Name=REASON_FOR_VULNERABILITY
+Start=18
+Len=12
+DataType=Alpha
+
+[ValueSet]
+Label=Why do you think you have a chance of getting HIV?
+Name=REASON_FOR_VULNERABILITY_VS2
+Value='A           ';I HAVE HAD SEX WITHOUT A CONDOM
+Value='B           ';I HAVE MANY BOYFRIENDS/GIRLFRIENDS
+Value='C           ';I HAVE HAD A BLOOOD TRANSFUSION
+Value='D           ';I HAVE INJECTED/ INJECT DRUGS
+Value='E           ';MY MOTHER/FATHER HAS HIV AIDS
+Value='F           ';I AM NOT CIRCUMCISED
+Value='G           ';I DO NOT TRUST MY BOYFRIEND/GIRLFRIEND
+Value='H           ';I AM SICK
+Value='I           ';MY BOYFRIEND/GIRLFRIEND IS SICK
+Value='J           ';MY BOYFRIEND/GIRLFRIEND DIED
+Value='K           ';I HAD AN ACCIDENT
+Value='L           ';OTHER(SPECIFY)
+Value='M           ';REFUSED
+
+[Record]
+Label=MODULE 7: SOCIAL NORMS, INTENTION TO ABSTAIN, SELF-EFFICACY AND ASSERTIVENESS
+Name=SOCIAL_NORMS
+RecordTypeValue='D'
+RecordLen=24
+
+[Item]
+Label=Will you have sex before you get married?
+Name=WILL_FORNICATE
+Start=17
+Len=2
+
+[ValueSet]
+Label=Will you have sex before you get married?
+Name=WILL_FORNICATE_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Do you think all, many, some, a few or none of your friends are having sex?
+Name=PERCEPTION_FRIENDS_HAVING_SEX
+Start=19
+Len=2
+
+[ValueSet]
+Label=Do you think all, many, some, a few or none of your friends are having sex?
+Name=PERCEPTION_FRIENDS_HAVING_SEZ
+Value=1;ALL
+Value=2;MOST
+Value=3;SOME
+Value=4;A FEW
+Value=5;NONE
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Do you think you will abstain(not have sex) in the next one year?
+Name=WILL_ABSTAIN_TILL_NEXT_YEAR
+Start=21
+Len=2
+
+[ValueSet]
+Label=Do you think you will abstain(not have sex) in the next one year?
+Name=WILL_ABSTAIN_TILL_NEXT_YEAR_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=If you did not want to have sex with someone , could you tell them that you do not want to have sex with them?
+Name=WILL_REFUSE_SEX_REQUEST
+Start=23
+Len=2
+
+[ValueSet]
+Label=If you did not want to have sex with someone , could you tell them that you do not want to have sex with them?
+Name=WILL_REFUSE_SEX_REQUEST_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Record]
+Label=MODULE 8: HIV TESTING
+Name=MODULE_8_HIV_TESTING
+RecordTypeValue='E'
+RecordLen=26
+
+[Item]
+Label=Have you ever been tested for HIV?
+Name=EVER_TESTED_FOR_HIV
+Start=17
+Len=2
+
+[ValueSet]
+Label=Have you ever been tested for HIV?
+Name=EVER_TESTED_FOR_HIV_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=What was the last time you were tested for HIV?
+Name=WHEN_LAST_TESTED
+Start=19
+Len=2
+
+[ValueSet]
+Label=What was the last time you were tested for HIV?
+Name=WHEN_LAST_TESTED_VS2
+Value=1;LESS THAN 12 MONTHS AGO
+Value=2;12-23 MONTHS AGO
+Value=3;2 OR MORE YEARS AGO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Did you receive the results of your last HIV test?
+Name=RECEIVED_RES_OF_LAST_TEST
+Start=21
+Len=2
+
+[ValueSet]
+Label=Did you receive the results of your last HIV test?
+Name=RECEIVED_RES_OF_LAST_TEST_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Would you be willing to tell me the last HIV test result you received?
+Name=WILL_REVEAL_RESULT
+Start=23
+Len=2
+
+[ValueSet]
+Label=Would you be willing to tell me the last HIV test result you received?
+Name=WILL_REVEAL_RESULT_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=What was the result of that HIV test?
+Name=RESULT_OF_LAST_TEST
+Start=25
+Len=2
+
+[ValueSet]
+Label=What was the result of that HIV test?
+Name=RESULT_OF_LAST_TEST_VS2
+Value=1;POSITIVE
+Value=2;NEGATIVE
+Value=3;INDETERMINATE
+Value=6;DON’T KNOW
+
+[Record]
+Label=MODULE 9: ALCOHOL AND DRUGS
+Name=MODULE_9_ALCOHOL_AND_DRUGS
+RecordTypeValue='F'
+RecordLen=40
+
+[Item]
+Label=Have you ever taken alcohol?
+Name=EVER_TAKEN_ALCOHOL
+Start=17
+Len=2
+
+[ValueSet]
+Label=Have you ever taken alcohol?
+Name=EVER_TAKEN_ALCOHOL_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+Value=8;REFUSED
+
+[Item]
+Label=During the last three months, how many days did you have at least one drink containint alcohol?
+Name=NO_OF_DAYS_DRANK
+Start=19
+Len=2
+
+[Item]
+Label=During the last three months, on the days you drank alcohol, how many drinks didi you usually drink per day?
+Name=DRINKS_PER_DAY
+Start=21
+Len=2
+
+[Item]
+Label=Have you ever tried drugs?
+Name=EVER_TRIED_DRUGS
+Start=23
+Len=2
+
+[ValueSet]
+Label=Have you ever tried drugs?
+Name=EVER_TRIED_DRUGS_VS2
+Value=1;YES
+Value=2;NO
+Value=8;DON’T KNOW
+Value=8;REFUSED
+
+[Item]
+Label=Khat/Miraa?
+Name=KHAT_MIRAA
+Start=25
+Len=2
+
+[ValueSet]
+Label=Khat/Miraa?
+Name=KHAT_MIRAA_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Glue,Petrol/Gundi?
+Name=GLUE_PETROL_GUNDI
+Start=27
+Len=2
+
+[ValueSet]
+Label=Glue,Petrol/Gundi?
+Name=GLUE_PETROL_GUNDI_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Bhangi/Bangi?
+Name=BHANGI_BANGI
+Start=29
+Len=2
+
+[ValueSet]
+Label=Bhangi/Bangi?
+Name=BHANGI_BANGI_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Mandrax?
+Name=MANDRAX
+Start=31
+Len=2
+
+[ValueSet]
+Label=Mandrax?
+Name=MANDRAX_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Cocaine?
+Name=COCAINE
+Start=33
+Len=2
+
+[ValueSet]
+Label=Cocaine?
+Name=COCAINE_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Heroin?
+Name=HEROIN
+Start=35
+Len=2
+
+[ValueSet]
+Label=Heroin?
+Name=HEROIN_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=88;REFUSED
+
+[Item]
+Label=Kuber/Tobacco?
+Name=KUBER_TOBACCO
+Start=37
+Len=2
+
+[ValueSet]
+Label=Kuber/Tobacco?
+Name=KUBER_TOBACCO_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Have you used other drugs not listed above?
+Name=USED_UNLISTED_DRUGS
+Start=39
+Len=2
+
+[ValueSet]
+Label=Have you used other drugs not listed above?
+Name=USED_UNLISTED_DRUGS_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Record]
+Label=MODULE 10: HIV STIGMA
+Name=MODULE_10_HIV_STIGMA
+RecordTypeValue='G'
+RecordLen=20
+
+[Item]
+Label=Would you be willing to share food with someone who has HIV or AIDS?
+Name=WILL_SHARE_FOOD_WITH_INFECTED
+Start=17
+Len=2
+
+[ValueSet]
+Label=Would you be willing to share food with someone who has HIV or AIDS?
+Name=WILL_SHARE_FOOD_WITH_INFECTEF
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Item]
+Label=Would you play with someone who has HIV or AIDS?
+Name=WILL_PLAY_WITH_INFECTED
+Start=19
+Len=2
+
+[ValueSet]
+Label=Would you play with someone who has HIV or AIDS?
+Name=WILL_PLAY_WITH_INFECTED_VS2
+Value=1;YES
+Value=2;NO
+Value=88;DON’T KNOW
+Value=98;REFUSED
+
+[Record]
+Label=END TIME
+Name=END_TIME
+RecordTypeValue='H'
+RecordLen=21
+
+[Item]
+Label=Record the end time.
+Name=RECORD_THE_END_TIME
+Start=17
+Len=5
+DataType=Alpha
+
+[Item]
+Label=Hour
+Name=END_HOURS
+Start=17
+Len=2
+ItemType=SubItem
+
+[Item]
+Label=Minutes
+Name=END_MINUTES
+Start=19
+Len=2
+ItemType=SubItem
